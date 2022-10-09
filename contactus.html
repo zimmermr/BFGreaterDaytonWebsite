@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Dayton business, business help, resources for business, 
+    dayton region, dayton, small business, business loans, small business resources" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <title>Connecting Your Business to Resources | BusinessFirst!</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/BFLogo.png" alt="logo" />
+        <nav id="topNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Business Resources</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h1>Contact Us</h1>
+        <p>BusinessFirst! is here to help your business grow</p>
+
+        <form id="contactForm" action="http://businessfirstdaytonregion.com/contactus" method="POST">
+            <fieldset id="contactInfo">
+                <legend>Your information</legend>
+            
+                <div class="row">
+                <label for="firstName">First Name*</label> 
+                <input name="custFirstName" id="firstName" type="text" />
+                </div>
+
+                <div class="row">
+                <label for="lastName">Last Name*</label>
+                <input name="custLastName" id="lastName" type="text" />
+                </div>
+
+                <div class="row">
+                <label for="email">Email*</label>
+                <input name="custEmail" id="email" type="email" />
+                </div>
+
+                <div class="row">
+                <label for="phone">Phone</label>
+                <input name="custPhone" id="phone" type="tel" placeholder="(xxx) xxx-xxxx" />
+                </div>
+
+                <label for="interestedGroup" id="interestedHeader">I'm interested in (check all that apply)</label>
+                <fieldset class="interestedGroup">
+                    <div class="checkbox">
+                        <input name="workforce" id="work" value="yes" type="checkbox" />
+                        <label for="work">Workforce</label>
+                    </div>
+                    <div class="checkbox">
+                        <input name="international" id="intl" value="yes" type="checkbox" />
+                        <label for="intl">International</label>
+                    </div>
+                    <div class="checkbox">
+                        <input name="govtReg" id="regs" value="yes" type="checkbox" />
+                        <label for="regs">Government Regulations</label>
+                    </div>
+                    <div class="checkbox">
+                        <input name="finance" id="fin" value="yes" type="checkbox" />
+                        <label for="fin">Finance</label>
+                    </div>
+                    <div class="checkbox">
+                        <input name="smallBiz" id="smallbusiness" value="yes" type="checkbox" />
+                        <label for="smallbusiness">Small Business</label>
+                    </div>
+                    <div class="checkbox">
+                        <input name="other" id="oth" value="yes" type="checkbox" />
+                        <label for="oth">Other</label>
+                    </div>
+                </fieldset>
+
+                <label for="status" id="statusHeader">Are you a...?</label>
+                <fieldset class="status">
+                    <div class="radio">
+                        <input name="bus" id="smallBizRadio" value="yes" type="radio" />
+                        <label for="sb">Entrepreneur</label>
+                    </div>
+                    <div class="radio">
+                        <input name="siteselct" id="siteSelector" value="yes" type="radio" />
+                        <label for="siteSelector">Site Selector</label>
+                    </div>
+                    <div class="radio">
+                        <input name="re" id="developer" value="yes" type="radio" />
+                        <label for="developer">Real Estate Developer</label>
+                    </div>
+                    <div class="radio">
+                        <input name="otherstatus" id="otherStatus" value="yes" type="radio" />
+                        <label for="otherStatus">Other</label>
+                    </div>
+                </fieldset>
+                <label for="commentbox">Is there anything else we can help you with?</label>
+                <textarea name="comments" id="commentbox"></textarea>
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset form" />
+            </fieldset>
+        </form>
+
+        <address>
+            BusinessFirst! for a Greater Dayton Region<br />
+            Montgomery County Administration Building<br />
+            451 W. Third St.<br />
+            10th Floor<br />
+            Dayton, Ohio 45422 <br />
+        </address>
+
+        <p><a href="tel:19372254351">Phone: (937) 225-4351</a></p>
+        <p><a href="mailto:bishd@mcohio.org">Email us</a></p>
+        <p><a href="fax:19372256036">Fax: (937) 225-6036</a></p>
+    </article>
+
+    <nav id="leftNav">
+        <ul>
+            <li><a href="http://www.resources4business.info/businessfirst/" target="_blank">Business Tools</a></li>
+            <li><a href="#">COVID-19 Resources</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Talent</a></li>
+            <li><a href="#">Business Expansion</a></li>
+            <li><a href="#">Relocating to Dayton Region</a></li>
+            <li><a href="#">Regional Initiative</a></li>
+            <li><a href="globaldayton.html">Global Dayton Report</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <div id="footerleft">
+            <a href="https://www.executivepulse.net/Login.aspx">Executive Pulse member login</a> | 
+            <a href="documents/BFBrochure.pdf" target="_blank">Brochure</a> | 
+            <a href="http://www.resources4business.info/businessfirst/" target="_blank">Tools for Business</a>
+        </div>
+        <div id="footerright">451 W. Third St., 10th floor | Dayton, Ohio 45422</div>
+    </footer>
+
+</body>
+
+
+</html>

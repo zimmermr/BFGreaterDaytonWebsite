@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+
+table {
+    table-layout: fixed;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+
+thead {
+    background-color: firebrick;
+    color: white;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: moccasin;
+}
+
+tbody tr td {
+    padding: .75em .25em .25em .75em;
+}
+
+#row1 {
+    width: 28%;
+}
+
+#row1 {
+    font-weight: bold;
+}
